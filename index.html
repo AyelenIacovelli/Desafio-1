@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío de Clase 1</title>
+</head>
+<body>
+    <!-- Título -->
+    <main>
+        <section>
+            <h1><u>Ayelén Iacovelli</u></h1>
+            <!-- Imágen con link -->
+            <a href="https://www.instagram.com/riasgremoryok/" target="_blank">
+                <img src="assets/riasok.jpg" alt="Foto de Ayelén">
+            </a>
+        </section>
+        <hr>
+        <!-- Lista no ordenada con datos-->
+        <div>
+            <h2><u>Datos personales</u></h2>
+            <ul>
+                <li><strong>Edad:</strong> 30 años</li>
+                <li><strong>Nacionalidad:</strong> Argentina</li>
+                <li><strong>Mail:</strong> iacovelli.ayelen@gmail.com</li>                </ul>
+        </div>
+        <!-- Párrafo con breve descripción -->
+        <div>
+            <p><em>¡Hola! Trabajo como administrativa en una empresa metalúrgica y anteriormente fui jugadora profesional de voley en Club Atlético Banfield.<br>
+            Durante unos años me dediqué como hobbie a hacer transmisiones en vivo por <a href="https://www.twitch.tv/riasgremoryok" target="_blank">Twitch</a>.<br>
+            Hoy en día busco incursionar en el ámbito de la programación.</em></p>
+        </div>
+    </main>
+    <hr>
+        <!-- Formulario de contacto -->
+    <section>
+        <div>
+            <h3><em>Contacto</em></h3>
+            <form action="#">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" placeholder="Ingrese su apellido" required>
+                <br>
+                <label for="nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="nacimiento" required>
+                <br>
+                <label for="telefono">Teléfono:</label>
+                <input type="number" id="telefono" placeholder="Ingrese su número" required>
+                <br>
+                <label for="correo">Email:</label>
+                <input type="email" id="correo" placeholder="Ingrese su email" required>              
+                <br>
+                <span>Nacionalidad</span>
+                <select>
+                    <option value="argentina">Argentina</option>
+                    <option value="otro">Otro país</option>
+                </select>
+                <br>
+                <span>¿Cursás en NUCBA?</span>
+                <label for="si">Si</label>
+                <input type="radio" id="no" name="nucba">
+                <label for="no">No</label>
+                <input type="radio" id="no" name="nucba">
+                <br>
+                <span>¡Dejame tu consulta!</span>
+                <br>
+                <label for="texto"></label>
+                <textarea id="texto" cols="40" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Enviar">                           
+            </form>
+        </div>
+    </section>
+</body>
+</html>
